@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +8,10 @@ namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
-        //test
+        /// <summary>
+        /// Renders the default view for the application's home page.
+        /// </summary>
+        /// <returns>An ActionResult that renders the default view for the home page.</returns>
         public ActionResult Index()
         {
         int i= 10;
@@ -24,6 +27,10 @@ namespace WebApplication.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Displays the Contact page.
+        /// </summary>
+        /// <returns>An ActionResult that renders the Contact view; ViewBag.Message contains the contact page message.</returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
