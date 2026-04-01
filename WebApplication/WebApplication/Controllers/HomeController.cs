@@ -11,6 +11,9 @@ namespace WebApplication.Controllers
         //test
         public ActionResult Index()
         {
+        int i= 10;
+        if (i<5)
+        {};
             return View();
         }
 
