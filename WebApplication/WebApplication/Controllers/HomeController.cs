@@ -14,9 +14,6 @@ namespace WebApplication.Controllers
         /// <returns>An ActionResult that renders the default view for the home page.</returns>
         public ActionResult Index()
         {
-        int i= 10;
-        if (i<5)
-        {};
             return View();
         }
 
@@ -39,5 +36,3 @@ namespace WebApplication.Controllers
         }
     }
 }
-//PR
-//PR 2
